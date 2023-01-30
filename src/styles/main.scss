@@ -1,0 +1,24 @@
+$main-color: rgb(243, 146, 146);
+
+
+body {
+    min-height: 100vh;
+    background: $main-color;
+    display: flex;
+    flex-direction: column;
+}       
+footer {
+    background: yellow;
+    min-height: 10vh
+}
+main {
+    background: rgb(28, 28, 231);
+    min-height: 10vh;
+    flex: 1 auto
+
+}
+header {
+    background: gray;
+    min-height: 10vh
+    
+}
